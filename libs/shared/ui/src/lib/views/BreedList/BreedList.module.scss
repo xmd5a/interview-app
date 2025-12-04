@@ -1,0 +1,17 @@
+.wrapper {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.list {
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+}

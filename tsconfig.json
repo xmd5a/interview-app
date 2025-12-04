@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "allowJs": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "types": [
+            "vite/client",
+            "@types/react",
+            "@testing-library/jest-dom"
+        ]
+    },
+    "files": [],
+    "include": [],
+    "references": [
+        {
+            "path": "./apps/dogly/tsconfig.app.json"
+        },
+        {
+            "path": "./apps/dogly/tsconfig.spec.json"
+        }
+    ],
+    "extends": "./tsconfig.base.json"
+}
